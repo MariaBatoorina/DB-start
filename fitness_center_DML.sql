@@ -81,3 +81,11 @@ WHERE id = 3;
 -- ============================================
 DELETE FROM trainer_specializations
 WHERE trainer_id = 1 AND specialization_id = 6;
+
+
+-- ============================================
+-- DELETE EXAMPLE - 2
+-- Demonstrates removing specialization from trainer
+-- ============================================
+DELETE FROM trainer_specializations
+WHERE trainer_id = 1 AND specialization_id = 6;
